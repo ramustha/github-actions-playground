@@ -26,7 +26,7 @@ jobs:
       - uses: actions/checkout@v4
 
       # Runs a set of commands using the runners shell
-      - name: Run build script
+      - name: Run test script
         run: |
           echo running testing,
           echo running coveage report.
@@ -54,7 +54,7 @@ jobs:
       - uses: actions/checkout@v4
 
       # Runs a set of commands using the runners shell
-      - name: Run build script
+      - name: Run deploy script
         run: |
           echo running deploy      
     
